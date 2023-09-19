@@ -1,0 +1,57 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+# https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5:-Library-specification
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Serial_Command_Handler	KEYWORD1
+
+MC60	KEYWORD1
+registration_codes	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+available	KEYWORD2
+write	KEYWORD2
+flush	KEYWORD2
+read	KEYWORD2
+readline	KEYWORD2
+pause	KEYWORD2
+sendAT	KEYWORD2
+sendEndMarker	KEYWORD2
+waitForOK	KEYWORD2
+waitForResponse	KEYWORD2
+sendCommandWait	KEYWORD2
+sendCommandWaitOK	KEYWORD2
+ATBypass	KEYWORD2
+
+getModuleInfo	KEYWORD2
+sendSMS	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+manufacturer_ID	KEYWORD2
+module	KEYWORD2
+version	KEYWORD2
+network_registration	KEYWORD2
+gprs_network_status	KEYWORD2
+operator_name	KEYWORD2
+IMSI	KEYWORD2
+ICCID	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+NO_SW_SERIAL	LITERAL1
+USE_SW_SERIAL	LITERAL1
+SHORT_TIMEOUT	LITERAL1
+DEFAULT_TIMEOUT	LITERAL1
+MAXLINELENGTH	LITERAL1
